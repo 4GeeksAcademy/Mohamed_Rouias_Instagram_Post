@@ -1,0 +1,97 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(16, 16, 16);
+    font-size: 12px;
+}
+
+/*-------- post-header-------*/
+/*div {
+    border: 1px solid red;
+}*/
+
+*{
+    box-sizing: border-box;
+}
+
+/*-------- oscuro post -------*/
+.back {
+    display: flex;
+    width: 625px;
+    height:600px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+/*-------- post-------*/
+.post {
+    display: flex;
+    flex-direction: column;
+    height: 490px;
+    width: 360px;
+    background-color: white;
+    margin: auto;
+}
+
+/*-------- post-header-------*/
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 50px;
+
+}
+
+.left-header {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 10px 0;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+}
+.text p {
+    font-size: 12px;
+    margin: 0px 0px;
+}
+.icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+.dots-icon {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+/*-------- post-image-------*/
+.post-img {
+    height: 275px;
+}
+img {
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+/*-------- post-icons bar-------*/
+.post-icons {
+    height: 30px;
+    margin: 10px 10px;
+    font-size: 16px;
+}
+#fa-bookmark {
+    position: relative;
+    float: right;
+}
+
+/*-------- post-descriptions -------*/
+.post-body {
+    height: 165px;
+}
+
+.post-body p {
+    margin: 10px 10px;
+}
